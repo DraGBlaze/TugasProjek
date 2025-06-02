@@ -1,0 +1,89 @@
+body {
+    background-color:#f7f3e8 ;
+}
+.bg-light {
+    background-color: #f7f3e8 !important;
+}
+.navbar-navs{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.collapse ul{
+    list-style-type: none;
+}
+.nav-link{
+    color: #4a4836;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+.navbar navbar-expand-lg{
+    position: sticky;
+    top: 0;
+}
+.container-fluid1 {
+    background-image: url(img/imgindex/background\ 1.jpg );
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-fluid1 h1 {
+    padding-top: 90px;
+    padding-left: 40px;
+    font-family: "Ancizar Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-size: 90px;
+    font-style: normal;
+    color: #8c8964;
+    line-height: 103.5px;
+    letter-spacing: -2.7px;
+}
+
+.container-fluid1 p {
+    padding-left: 40px;
+    color: #4a4836;
+    font-family: serif;
+    font-size: 25px;
+    font-style: italic;
+}
+.container-fluid2{
+    background-image: url(img/imgindex/Untitled\ design\ \(1\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 25px;
+    box-shadow: #4a4836;
+}
+.container-fluid2 h1{
+    font-family: "Ancizar Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-size: 55px;
+    font-style: normal;
+    color: #8c8964;
+    line-height: 103.5px;
+    letter-spacing: -2.7px;
+}
+.promo img{
+    border-radius: 20px;
+    top: 0;
+    left: 50;
+    width: 350px;
+    height: 100%;
+    margin-left:50px ;
+
+}
