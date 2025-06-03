@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f1e7;
+  color: #4a3c31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #6f4e37;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #a9746e;
+  padding-bottom: 10px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(111, 78, 55, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.hero img:hover {
+  transform: scale(1.03);
+}
+
+.address {
+  margin-top: 30px;
+  background-color: #fff8f0;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(111, 78, 55, 0.15);
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.address h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  color: #7b5a43;
+}
+
+.address p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
