@@ -64,6 +64,7 @@ body {
     width: 45%;
     background-color: #8c8964;
     border-radius: 15px;
+    margin-right: 30px;
 }
 
 .isi-right label {
@@ -75,7 +76,8 @@ body {
 
 .isi-right input, textarea {
     
-    width: 100%;
+    width: 95%;
+    padding-left: 15px;
     padding-right: 5px;
     margin: 5px 0;
     border: 1px solid #f7f3e8;
@@ -86,9 +88,9 @@ body {
 }
 
 .isi-right button{
-font-family: Arial, sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     border-radius: 8px;
-    width: 100%;
+    width: 95%;
     background-color: #8c8964;
     color: white;
 }
