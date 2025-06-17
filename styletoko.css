@@ -15,8 +15,34 @@ body {
   padding: 20px;
 }
 
-header {
-  margin-bottom: 20px;
+.bg-light {
+    background-color: #f7f3e8 !important;
+}
+.navbar-navs{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.collapse ul{
+    list-style-type: none;
+}
+.nav-link{
+    color: #4a4836 !important;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+.navbar navbar-expand-lg{
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -48,7 +74,6 @@ header h1 {
   padding: 20px 30px;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(111, 78, 55, 0.15);
-  max-width: 800px;
   width: 100%;
   text-align: center;
 }
@@ -71,14 +96,11 @@ header h1 {
   padding: 20px 30px;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(111, 78, 55, 0.15);
-  max-width: 800px;
   width: 100%;
-  text-align: center;
 }
 
 .maps iframe {
   width: 100%;
-  max-width: 800px;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(111, 78, 55, 0.3);
 
