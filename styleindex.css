@@ -39,6 +39,8 @@ body {
 
 }
 
+
+
 .container-fluid1 h1 {
     padding-top: 90px;
     padding-left: 40px;
@@ -58,6 +60,17 @@ body {
     font-family: serif;
     font-size: 25px;
     font-style: italic;
+    animation: slideIn 5s;
+}
+@keyframes slideIn {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
 .container-fluid2{
     background-image: url(img/imgindex/Untitled\ design\ \(1\).jpg);
